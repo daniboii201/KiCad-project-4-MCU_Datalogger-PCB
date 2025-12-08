@@ -1221,7 +1221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28c08b9e-7cb0-4636-9ed1-05063c68a0c7")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 46.355 40.64 0)
 			(effects
 				(font
@@ -1283,6 +1283,14 @@
 		)
 		(pin "2"
 			(uuid "44b8011d-d145-4921-a6f4-b49fb0d7d12e")
+		)
+		(instances
+			(project "project4_mcu_datalogger"
+				(path "/6791cede-e2c8-424a-b751-f1a182bcbb22/14841377-e15c-47f6-9750-1c87c8194bca"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1363,6 +1371,14 @@
 		(pin "2"
 			(uuid "f5e697a7-b959-44c8-a755-1594833cae00")
 		)
+		(instances
+			(project "project4_mcu_datalogger"
+				(path "/6791cede-e2c8-424a-b751-f1a182bcbb22/14841377-e15c-47f6-9750-1c87c8194bca"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
@@ -1373,7 +1389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ea11d2f-06b1-4bfd-890e-273e07b49dc0")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 45.085 60.96 0)
 			(effects
 				(font
@@ -1450,6 +1466,14 @@
 		)
 		(pin "1"
 			(uuid "78b4a3c6-af16-489a-99c9-dee434ffae19")
+		)
+		(instances
+			(project "project4_mcu_datalogger"
+				(path "/6791cede-e2c8-424a-b751-f1a182bcbb22/14841377-e15c-47f6-9750-1c87c8194bca"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
