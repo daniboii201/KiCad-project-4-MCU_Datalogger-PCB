@@ -23,23 +23,26 @@ This is my fourth PCB design created using KiCad. Unlike my previous projects, t
 ### Components
 • Microcontroller: ATmega328P-AU
 
-• EEPROM: 2 × 24LC2025
+• EEPROM: 2 x 24LC2025
 
 • Real-Time Clock: DS1337S_T_R
 
 • Oscillators:
+
   – 32.768 kHz (RTC timing)
 
   – 16 MHz (MCU clock)
 
 • Capacitors:
-  – 2 × 22 pF
+
+  – 2 x 22 pF
   
-  – 2 × 0.1 µF
+  – 2 x 0.1 µF
   
-  – 1 × 100 nF
+  – 1 x 100 nF
   
 • Resistors:
+
   – 3 x 10 kΩ
   
   – 2 x 4.7 kΩ
@@ -53,6 +56,12 @@ This is my fourth PCB design created using KiCad. Unlike my previous projects, t
 • Pin headers: For programming and sensor interfaces
 
 ### Characteristics:
+• Two PCB versions:
+
+  – 2-layer: Cost-effective design for basic applications, suitable for simple routing and lower manufacturing costs.
+
+  – 4-layer: Optimized for signal integrity with dedicated ground and power planes, reduced EMI, and improved reliability. Includes mostly SMD components for a compact footprint, silkscreen labels for easy assembly, mounting holes for stability, and copper pours for thermal management.
+
 
 ### How It Works:
 The MCU Datalogger PCB is designed to collect sensor data, process it, and store it reliably. Here’s the workflow:
@@ -75,6 +84,6 @@ A crystal oscillator provides accurate timing for logging intervals and communic
 
 5. PCB Layer Benefits
 
-• 2-layer version: Simple and cost-effective, suitable for basic applications.
+  • 2-layer version: Simple and cost-effective, suitable for basic applications.
 
-• 4-layer version: Includes dedicated ground and power planes for better signal integrity, reduced EMI, and improved reliability in noisy environments.
+  • 4-layer version: Includes dedicated ground and power planes for better signal integrity, reduced EMI, and improved reliability in noisy environments.
